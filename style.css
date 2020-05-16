@@ -1,0 +1,124 @@
+body{
+    max-width: 100%;
+    max-block-size: 100%;
+    
+}
+nav,ul,li {
+    font-weight: bolder;
+    list-style: none;
+    float: right;
+    padding-right: 20px;
+    word-spacing: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: white;
+    display: flex;
+    
+}
+ul li {
+    display: inline-block;
+    
+}
+header{
+    background-color: black;
+    height: 100px;
+    line-height: 50px;
+    background-size: 100% 100%;
+    width: 1366px;
+}
+body,div{
+    flex-direction: row;
+}
+div.pic{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 130px;
+    left: 30px;
+    border-radius: 20px;
+    z-index: 1;
+}
+div.words{
+    background-color: rgb(137, 170, 84);
+    width: 500px;
+    height: 500px;
+    position: relative;
+    top: 30px;
+    left: 435px;
+    border-radius: 20px;
+    z-index: 3;
+    align-items: stretch;
+    justify-content: stretch;
+    display: flex
+}
+div.video{
+    background-color: rgb(223, 5, 5);
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 130px;
+    left: 840px;
+    border-radius: 20px;
+    z-index: 2;
+    
+   
+}
+p.welcome{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    margin-right: 110px;
+    margin-top: 25px;
+}
+p.dance{
+    color: white;
+    font-weight: bolder;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: -220px;
+    margin-top: 7px;
+    text-align: center;
+}
+p.the{
+    color: white;
+    font-weight: bolder;
+    text-align: center;
+    font-size: 25px;
+    margin-right: -110px;
+    margin-top: 70px;
+}
+.pic1{
+    display: flex;
+    justify-content: start;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.pic2{
+    margin-top:15PX;
+    margin-left: 90px;
+}
+.pic3{
+    display: flex;
+    justify-content: end;
+    align-items: flex-end;
+    margin-left: 286px;
+    padding-top: 17px;
+}
+.linux{
+    margin-top: 350px;
+    margin-left:-120px;
+}
+.apple{
+    margin-top: 50px;
+    margin-left: 150px; 
+}
+.windows{
+    margin-top: 50px;
+    margin-left: 260px;
+}
+
+
